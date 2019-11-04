@@ -23,7 +23,7 @@ brachiograph-utils convert svg example.svg out.json
 brachiograph-utils convert svg example.svg - | brachiograph-utils optimizers order - out.json
 
 # show turtle preview
-brachiograph-utils display out.json -s 3 
+brachiograph-utils display out.json -s 5 -x -200 -y 300
 
 # every command and category has a help text
 brachiograph-utils --help
@@ -39,3 +39,6 @@ As the importer is pretty simple, there are some limitations:
     - use `Extensions -> Modify Path -> Flatten Beziers` to make curves cornered
 - paths inside of `<defs></defs>` are not ignored
     - if your plot contains squares that are not visible in the SVG, you might have them defined in the `<defs></defs>` section of the SVG. Simply remove them in a text editor if they are not needed.
+
+
+![example plot](example.png)
