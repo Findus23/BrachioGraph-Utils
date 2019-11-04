@@ -22,6 +22,9 @@ brachiograph-utils convert svg example.svg out.json
 # combine two scripts by piping the stdout to the stdin
 brachiograph-utils convert svg example.svg - | brachiograph-utils optimizers order - out.json
 
+# further minimize the traveling distance
+brachiograph-utils optimizers randomized-optimizer out.json out.json
+
 # show turtle preview
 brachiograph-utils display out.json -s 5 -x -200 -y 300
 
