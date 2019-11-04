@@ -6,7 +6,12 @@ It allows importing simple SVGs and G-code, minimizing travel distance and previ
 
 ## Installation
 
-or 
+```bash
+git clone https://github.com/Findus23/BrachioGraph-Utils.git
+cd BrachioGraph-Utils
+pip install -r requirements.txt
+pip install -e .
+```
 
 ### Usage
 
