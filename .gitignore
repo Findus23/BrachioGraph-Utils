@@ -1,0 +1,10 @@
+images/
+.idea/
+*.svg
+*.gcode
+*.json
+__pycache__/
+*.egg-info/
+old/
+!example.svg
+!example.json
